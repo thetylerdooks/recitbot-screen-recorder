@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.recitbot.agent</string>
+	<key>CFBundleName</key>
+	<string>Recitbot</string>
+	<key>CFBundleDisplayName</key>
+	<string>Recitbot</string>
+	<key>CFBundleExecutable</key>
+	<string>Recitbot</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.6.1</string>
+	<key>CFBundleVersion</key>
+	<string>0.6.1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Recitbot records your microphone so your voice is in the recording.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Recitbot shows your webcam in a bubble when you turn it on.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Recitbot records your screen so you can share a video link.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Recitbot records your computer's sound in the recording.</string>
+</dict>
+</plist>

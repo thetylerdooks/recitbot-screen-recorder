@@ -1,0 +1,9 @@
+# Installer scripts are run by bash on the Mac and their SHA-256 is pinned: LF on every checkout.
+*.sh text eol=lf
+# Mac sources, plists and entitlements are built and signed on macOS: a CRLF checkout breaks codesign.
+macos/** text eol=lf
+# Windows sources keep their bytes as committed (the build hashes them indirectly through the exe and install.ps1).
+windows/** -text
+*.zip binary
+*.png binary
+*.icns binary

@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+Recitbot.app/
+*.xcodeproj
+.DS_Store
+dist/
+signing/*.keychain-db
+signing/*.keychain-pass

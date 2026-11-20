@@ -1,0 +1,23 @@
+# build output
+dist/
+.cache/
+build/*.exe
+*.log
+# macOS
+macos/.build/
+macos/.swiftpm/
+macos/Recitbot.app/
+macos/dist/
+.DS_Store
+# signing material is never committed
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.p8
+*.keychain-db
+*.keychain-pass
+*.mobileprovision
+*.provisionprofile
+.env
